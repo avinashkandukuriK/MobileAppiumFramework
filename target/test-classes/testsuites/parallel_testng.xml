@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parlles Test Suite" parallel="tests" thread-count="6">
+	<listeners>
+		<listener class-name="resources.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Ecommerce Test 1">
+		<classes>
+			<class name="ecommerceApp.Ecommerce_tc_1" />
+			<class name="ecommerceApp.Ecommerce_tc_2" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Ecommerce Test 2">
+		<classes>
+			<class name="ecommerceApp.Ecommerce_tc_3" />
+			<class name="ecommerceApp.Ecommerce_tc_4" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Ecommerce Test 3">
+		<classes>
+			<class name="ecommerceApp.Ecommerce_tc_5" />
+		</classes>
+	</test>
+</suite>
+<!-- Notes -->

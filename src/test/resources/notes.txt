@@ -1,0 +1,6 @@
+maven commands to run (1 need to change runMode in global.properties to maven_command):
+
+mvn test -DdeviceName=xxxxx
+
+example of devices:
+emulator-5554
